@@ -1,8 +1,8 @@
-/*   
+/*
 Theme Name: Minimal Guy
 Theme URI: http://guyro.com/minimal-wordpress-theme/
 Description: A very clean minimalist theme, search, archives or other features.
-Author: Guy Ro
+Author: Guy Ro, Chris Oliver
 Author URI: http://guyro.com
 Tags: white, two-columns, fixed-width
 Version: 1.0
@@ -14,7 +14,7 @@ This theme is uncopyrighted, free, and offered as is.
 #container {margin: 0 auto; width: 960px;}
 
 body {
-  background:#fff; 
+  background:#fff;
   font-family: 'Open Sans', Verdana, helvetica-neue, helvetica, sans-serif;
   font-size: 0.9em;
   font-weight: 400;
@@ -65,7 +65,7 @@ h5 {font-size: 11pt; color:#000;}
 
 a {color: #21759B; text-decoration: none;}
 
-a:hover { 
+a:hover {
   /*border-width: 0 0 1px 0;
   border-style: none none solid none;
   border-color: #C0C0C0;*/
@@ -87,8 +87,7 @@ li{padding: 6px 0 0 0;}
 #header h3{padding: 5px 0 20px 0; margin:0; color: #777777; font-weight: normal; font-size: 12pt;}
 #header .about {font-size: 10pt; line-height: 14px; color: #666; margin-left:4px}
 
-#content {float: right;	width:680px; 
-	margin-top:40px; margin-left:14px; margin-right:14px; margin-bottom:24px;}	
+#content {float: right;	width:680px; margin-top:40px; margin-left:14px; margin-right:14px; margin-bottom:24px;}
 
 .entry p {font-size:16px; line-height:1.7}
 .entry strong{font:Arial, Helvetica, sans-serif; font-size:1em;}

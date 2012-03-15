@@ -1,4 +1,4 @@
-# Excid3.com Wordpress Theme
+# excid3.com Wordpress Theme
 
 This is my blog's wordpress theme that I've modified from the Minimal
 Guy theme by Guy Ro.
@@ -25,5 +25,5 @@ called "minimal-guy" and copying the files there via FTP.
 Alternatively if you have git on your server you can ssh in, navigate to
 the themes directory and clone the repository:
 
-    cd /WORDPRESS DIRECTORY/
-    git clone git://github.com:excid3/excid3-wordpress-theme.git
+    cd /WORDPRESS DIRECTORY/wp-content/themes
+    git clone git://github.com:excid3/excid3-wordpress-theme.git minimal-guy
