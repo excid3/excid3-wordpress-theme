@@ -1,0 +1,112 @@
+/*   
+Theme Name: Minimal Guy
+Theme URI: http://guyro.com/minimal-wordpress-theme/
+Description: A very clean minimalist theme, search, archives or other features.
+Author: Guy Ro
+Author URI: http://guyro.com
+Tags: white, two-columns, fixed-width
+Version: 1.0
+.
+This theme is uncopyrighted, free, and offered as is.
+.
+*/
+
+#container {margin: 0 auto; width: 960px;}
+
+body {
+  background:#fff; 
+  font-family: 'Open Sans', Verdana, helvetica-neue, helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.7em;
+  margin:50px;
+}
+
+pre {
+  padding: 10px;
+}
+
+img{border:none;}
+img a{border:none;}
+img {
+    border: 1px solid #DFDFDF;
+    float: left;
+    margin: 15px;
+    padding: 5px;
+}
+img:hover {
+    border: 1px solid #CCC;
+
+    box-shadow: 1px 1px 5px #999;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+}
+.avatar { margin: 0px 15px 0px 0px; }
+
+blockquote {
+  border-left:1px solid #A5ABAB;
+  margin:0px;
+  padding:0 12px 0 12px;
+}
+blockquote p { color: #666; }
+
+p{color:#000000; margin:12px 0;}
+
+/*a {color:#0084B4; text-decoration: none;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}*/
+
+h1 {font-size: 28pt; line-height: 32pt; color: #000; font-weight: 100; display:inline;}
+h2 {font-size: 22pt; color:#000;}
+h3 {font-size: 18pt; color:#000;}
+h4 {font-size: 14pt; color:#000;}
+h5 {font-size: 11pt; color:#000;}
+
+a {color: #21759B; text-decoration: none;}
+
+a:hover { 
+  /*border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  border-color: #C0C0C0;*/
+  text-decoration: underline;
+}
+h1 a, h2 a { color: #333; }
+
+ul{padding: .5em 0em 1em 3.2em; font-size: 0.9em;}
+li{padding: 6px 0 0 0;}
+
+ol{padding: .5em 0em 0em 3.2em; font-size: 0.9em;}
+li{padding: 6px 0 0 0;}
+
+.alignright { float:right; }
+.alignleft { float:left; }
+
+#header { margin-top: 50px; height: 100px; }
+#header h2{padding: 30px 0 0 0; margin:0; color: #333; font: Helvetica, sans-serif; font-size: 36pt; font-weight: normal; margin-bottom:15px;}
+#header h3{padding: 5px 0 20px 0; margin:0; color: #777777; font-weight: normal; font-size: 12pt;}
+#header .about {font-size: 10pt; line-height: 14px; color: #666; margin-left:4px}
+
+#content {float: right;	width:680px; 
+	margin-top:40px; margin-left:14px; margin-right:14px; margin-bottom:24px;}	
+
+.entry p {font-size:16px; line-height:1.7}
+.entry strong{font:Arial, Helvetica, sans-serif; font-size:1em;}
+.entry img {margin: 15px 0px; float:none;}
+img.wp-smiley {border:none; margin:0; padding:0; float:none;}
+
+#dsq-content .dsq-avatar img {margin:0; padding:0;}
+
+#sidebar {line-height: 14px; float: left; width:150px; text-align:left; color: #666; margin-top:50px;}
+#sidebar div {margin-bottom:20px;}
+#sidebar ul {margin:0px; padding:0;}
+#sidebar ul li {margin: 5px 0; padding: 0; list-style-type: none; font-weight: normal; line-height:14px;}
+#sidebar ul li a { margin: 8px 8px 8px 0; }
+#sidebar h4{margin:0; font-weight: normal; font-size: 8 pt; color: #999;}
+#sidebar img {margin: 4px;}
+#sidebar .icons {overflow:hidden;}
+
+#footer {background:#fff; clear: both;	width: 100%;}
+#footer p{padding:14px 0;margin: 0; color: #666; text-align:center;}
+#footer a{color: #666;text-decoration: none;}
+#footer a:hover{color: #000000;text-decoration: none;}
