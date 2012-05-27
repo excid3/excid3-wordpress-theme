@@ -3,7 +3,7 @@ Theme Name: Minimal Guy
 Theme URI: http://guyro.com/minimal-wordpress-theme/
 Description: A very clean minimalist theme, search, archives or other features.
 Author: Guy Ro, Chris Oliver
-Author URI: http://guyro.com
+Author URI: http://guyro.com, http://excid3.com
 Tags: white, two-columns, fixed-width
 Version: 1.0
 .
@@ -11,14 +11,14 @@ This theme is uncopyrighted, free, and offered as is.
 .
 */
 
-#container {margin: 0 auto; width: 960px;}
+#container {margin: 0 auto; width: 780px;}
 
 body {
   background:#fff;
   font-family: 'Open Sans', Verdana, helvetica-neue, helvetica, sans-serif;
   font-size: 0.9em;
-  font-weight: 400;
-  line-height: 1.7em;
+  font-weight: 200;
+  line-height: 32px;
   margin:50px;
 }
 
@@ -87,9 +87,13 @@ li{padding: 6px 0 0 0;}
 #header h3{padding: 5px 0 20px 0; margin:0; color: #777777; font-weight: normal; font-size: 12pt;}
 #header .about {font-size: 10pt; line-height: 14px; color: #666; margin-left:4px}
 
-#content {float: right;	width:680px; margin-top:40px; margin-left:14px; margin-right:14px; margin-bottom:24px;}
+#content {float: right;	width:600px;
+	margin-top:40px; margin-left:14px; margin-right:14px; margin-bottom:24px;}
 
-.entry p {font-size:16px; line-height:1.7}
+.entry p {
+  color:#4D4D4D;
+  font-size:16px;
+}
 .entry strong{font:Arial, Helvetica, sans-serif; font-size:1em;}
 .entry img {margin: 15px 0px; float:none;}
 img.wp-smiley {border:none; margin:0; padding:0; float:none;}
@@ -99,8 +103,9 @@ img.wp-smiley {border:none; margin:0; padding:0; float:none;}
 #sidebar {line-height: 14px; float: left; width:150px; text-align:left; color: #666; margin-top:50px;}
 #sidebar div {margin-bottom:20px;}
 #sidebar ul {margin:0px; padding:0;}
-#sidebar ul li {margin: 5px 0; padding: 0; list-style-type: none; font-weight: normal; line-height:14px;}
-#sidebar ul li a { margin: 8px 8px 8px 0; }
+#sidebar ul li { margin: 30px 0 30px 0; padding: 0; list-style-type: none; font-weight: normal; line-height:14px; }
+#sidebar ul li a { border: 3px solid #F8F8F8; border-radius: 30px; color: #999; margin: 8px 8px 8px 0; padding: 7px 15px; }
+#sidebar ul li a:hover { border: 3px solid #777; color: black; text-decoration: none; }
 #sidebar h4{margin:0; font-weight: normal; font-size: 8 pt; color: #999;}
 #sidebar img {margin: 4px;}
 #sidebar .icons {overflow:hidden;}
@@ -109,3 +114,43 @@ img.wp-smiley {border:none; margin:0; padding:0; float:none;}
 #footer p{padding:14px 0;margin: 0; color: #666; text-align:center;}
 #footer a{color: #666;text-decoration: none;}
 #footer a:hover{color: #000000;text-decoration: none;}
+
+#s {
+	background: #fff;
+	padding: 6px 6px 6px 8px;
+	width: 202px;
+	border: solid 1px #bcbbbb;
+	outline: none;
+
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+}
+#s, #searchsubmit {border:1px solid #CCC;}
+#searchsubmit {
+	color: #fff;
+	border: solid 1px #494949;
+	font-size: 11px;
+	height: 27px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.6);
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	background: #5f5f5f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), to(#454545));
+	background: -moz-linear-gradient(top,  #9e9e9e,  #454545);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#454545'); /* ie7 */
+	-ms-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#454545'); /* ie8 */
+}
+
+.search {font-size:0.7em; font-weight:200;}
+ul#archives {margin:0; padding:0; list-style-type:none;}
+ul#archives li {font-size:1.1em; font-weight:200;}
+ul#archives li.archive-year {color:#888; border-bottom:1px solid #bbb; font-weight:normal;}
+ul#archives span.archive-date {color:#888; display:inline-block; font-size:0.8em; font-weight:normal; margin-right:15px; text-align:right; text-transform:uppercase; width: 60px;}
